@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Contador de Likes</title>
 </head>
 <body>
@@ -13,6 +14,21 @@
     <h2 id="contador">0 Likes</h2>
 
     <button id="btnLike">Me gusta ❤️</button>
+
+<h2>Historial de likes</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Número de like</th>
+            <th>Fecha y hora</th>
+        </tr>
+    </thead>
+
+    <tbody id="historial">
+    </tbody>
+</table>
+
     <script src="script.js"></script>
 </body>
 </html>
